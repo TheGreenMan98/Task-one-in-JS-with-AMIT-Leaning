@@ -2,18 +2,18 @@
 // document.write(`<h1> Welcome ${username.split("").reverse().join("")}</h1>`)
 // Question No.1
 for (var i=1;i<=10;i++){
-    document.write(`<h1>The NUM is ${i}.</h1>`)
+    document.write(`<h2>The NUM is ${i}.</h2>`)
 }
 // Question No.2
 var sayHi = "Hello World"
 
 console.log(sayHi)
-document.write(`<h1>${sayHi}</h1>`)
+document.write(`<h2>${sayHi}</h2>`)
 // alert(sayHi)
 // Question No.3
 for (var i=0;i<=10;i++){
     if(i % 2 != 0){
-    document.write(`<h1>This NUM (${i}) is odd .</h1>`)
+    document.write(`<h2>This NUM (${i}) is odd .</h2>`)
     }
 }
 // Question No.4
